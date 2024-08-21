@@ -1,0 +1,414 @@
+*{
+    margin: 0 0;
+    padding: 0 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+ .container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1%;
+} 
+
+.img-responsive{
+    width: 100%;
+    height: 300px;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+.box-img{
+    height: 400px;
+    width: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(61, 61, 61);
+}
+.btn{
+padding: 1%;
+border: none;
+font-size: 1rem;
+border-radius: 5px;
+}
+
+.btn-primary{
+background-color:rgb(235, 89, 36);
+color: white;
+cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: rgb(206, 163, 21);
+    color: white;
+}
+
+.btn-details{
+    padding-bottom: 8px;
+}
+
+
+
+h2{
+    color: rgb(46, 46, 46);
+    font-size: 30px;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+h4{
+    font-size: 1rem;
+    padding-top: 7px;
+}
+
+h5{
+    font-size: 1.5rem;
+    width: 900px;
+    color: white;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+p{
+    font-size: medium;
+    color: rgb(49, 47, 47);
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+}
+
+/* ...css for navbar section.... */
+
+.logo{
+    width: 100px;
+    float: left;
+    height: 70px;
+    margin-left: 50px;
+   
+}
+
+.menu{
+    line-height: 60px;
+    text-align: center;
+}
+
+
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* ...css for food search section... */
+.animal-search{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0;
+    
+}
+
+.animal-search input[type="search"]{
+width: 50%;
+padding:1%;
+font-size: 1rem;
+border: none;
+border-radius: 5px;
+}
+
+/* ..css for categories.. */
+.categories{
+    padding-top: 4%;
+}
+
+.box-3{
+    float: left;
+    width: 28%;
+    height: 70%;
+    margin: 1%;
+    padding-top: 2%;
+}
+
+/* ...css for explore animals section */
+.explore-animals{
+    background-color: rgb(216, 250, 216);
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    
+}
+.explore-animals-box{
+    border: 1px solid black;
+    width: 20%;
+    float: left;
+    height: 420px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding-top: 1%;
+    /* box-sizing: 50%; */
+}
+
+
+.search-animals{
+    width: 20%;
+    height: 420px;
+    justify-content: center;
+    margin-left: 40%;
+
+}
+
+.description{
+background-color: orange;
+height: 110px;
+border: 1px solid black;
+/* margin-top: 3px; */
+width: 100%;
+text-align: center;
+border: 1px solid black;
+padding-bottom: 2%;
+
+}
+
+.view-animals{
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    border-radius: 15px;
+    padding-top: 2%;
+}
+
+/* ..css for social.. */
+.soial{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+   
+}
+
+.view{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about{
+    text-align: center;
+    background-color:rgb(205, 236, 205);
+    height: 200px;
+    padding-top: 5%;
+}
+.contact{
+    text-align: center;
+    color: white;
+    height: 200px;
+    padding-top: 5%;
+}
+
+
+.legend{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.view-img{
+    border-radius: 5px;
+}
+.img{
+    height: 500px;
+    width: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+/* css for mobile responsive */
+@media only screen and (max-width:768px){
+    .logo{
+        width: 150px;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .animal-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 50%;
+        padding: 2%;
+    }
+
+    .animal-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+  h2{
+    margin-bottom: 10%;
+}
+
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+
+    .explore-animals{
+        padding: 20% 0;
+    }
+
+    .explore-animals-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% auto;
+    }
+
+}
+
+
+/* login and register */
+
+/* Center the form container on the screen */
+.form-container {
+    width: 100%;
+    height: 600px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+
+/* Form styling */
+.login {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; 
+}
+
+h3.form-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Input styling */
+input.box {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Button styling */
+input.button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    background-color: #28a745; /* Green background */
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input.button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Link styling */
+.register-link, .login-link {
+    color: #007bff; /* Blue text */
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.register-link:hover, .login-link:hover {
+    text-decoration: underline;
+}
+
+/* Message box styling */
+.message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    /* background-color: #ffcccc;  */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.message span {
+    margin-right: 10px;
+    color: #333;
+}
+
+.message i {
+    cursor: pointer;
+    color: #666;
+}
+
+
